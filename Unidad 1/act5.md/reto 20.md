@@ -1,5 +1,7 @@
 ## reto 20
-(INICIO)
+
+ ``` asm
+ (INICIO)
 @SCREEN  // Dirección base de la pantalla
 
 @16384   // Dirección inicial de SCREEN
@@ -220,3 +222,5 @@ D;JEQ
   @R13
   A=M
   D;JMP
+```
+

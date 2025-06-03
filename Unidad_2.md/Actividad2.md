@@ -1,5 +1,5 @@
 ## Solucion 
-```
+``` ASM
 (INICIO)
 @SCREEN
 

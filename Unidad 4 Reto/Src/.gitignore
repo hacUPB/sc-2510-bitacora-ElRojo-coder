@@ -1,0 +1,20 @@
+# Ignorar directorios y archivos generados
+# === ARCHIVOS DEL SISTEMA ===
+.DS_Store            
+Thumbs.db           
+desktop.ini         
+icon.rc
+.vs/
+bin/
+obj/
+Reto1.xcodeproj/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+addons.make
+Makefile
+Project.xcconfig
+config.make
+openFrameworks-Info.plist
+of.entitlements

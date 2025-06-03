@@ -520,4 +520,5 @@ No utilizar estos metodos en el codigo puede resultar en **conflictos al momento
 - **Compara la eficiencia de ambas versiones. ¿Cuál es más eficiente? ¿Por qué?**  
 Haciendo un experimento sencillo, basado en crear la mayor cantidad posible de objetos **Boid**, resultando en un numero de estos objetos, cuya existencia en simultaneo empezaba a afectar el rendimiento del programa. El primer programa alcanzo un aproximado de 500 objetos antes de empezar a mostrar serias fallas de rendimiento, mas el codigo modificado logro alcanzar un aproximado de 750 antes de sufrir el mismo efecto.
 - **El uso de lock y unlock en la versión con hilos, ¿Cómo afecta la eficiencia del programa?**  
-Estos metodos afectan la eficiencia del programa ya que generan colas de espera para que otros Threads obtengan acceso a datos viniendo de espacios externos a la CPU, sin embargo, la diferencia es menor en comparacion con los beneficios que ofrece
+Estos metodos afectan la eficiencia del programa ya que generan colas de espera para que otros Threads obtengan acceso a datos viniendo de espacios externos a la CPU, sin embargo, la diferencia es menor en comparacion con los beneficios que ofrece.
+

@@ -1,5 +1,5 @@
 // Inicio del programa
-```AMS
+``` AMS
 (INICIO)
 @SCREEN
 
